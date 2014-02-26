@@ -1,4 +1,10 @@
 
+1.0.3 / 2014-02-26 
+==================
+
+  * replace each by component-each
+  * cmp: replace each component
+
 1.0.2 / 2014-02-26 
 ==================
 

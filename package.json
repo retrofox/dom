@@ -1,6 +1,6 @@
 {
   "name": "dom-component",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": "component/dom",
   "description": "DOM traversal, manipulation and events aggregate library",
   "license": "MIT",
