@@ -1,4 +1,51 @@
 
+1.0.2 / 2014-02-26 
+==================
+
+  * cmp: change isArray component dep by is-array
+  * ignoring npm-debug.log file
+  * Release 1.0.1
+  * update component/to-function dep
+  * pin component/to-function
+  * Release 1.0.0
+  * cleaner testing
+  * Merge pull request #72 from bmcmahen/master
+  * add #focus
+  * pin component/css
+  * Merge pull request #69 from dominicbarnes/ie8_compat
+  * component/css@ie8_compat has been merged
+  * using matthewp/text where necessary for IE8, handling document fragments differently in some places for IE8, adjusting tests for IE8 as well
+  * using matthewp/keys in place of Object.keys (IE8 support)
+  * using component/each for array iteration (IE8 support)
+  * Merge pull request #65 from chemzqm/master
+  * rebuild dom to use an array-like object
+  * fix link
+  * Merge pull request #63 from amasad/master
+  * Use new iteration methods with the events lib
+  * Merge pull request #60 from component/jquerify
+  * separate .forEach(fn) and .each(fn). Based on: https://github.com/component/dom/pull/60#issuecomment-31502716
+  * update css component to point to it's new home
+  * update dom.use(fn) to support plugins
+  * Use an array-like object (like jquery) & reorganize project.
+  * Merge pull request #54 from ianstormtaylor/add/replace
+  * add .replace() to the readme
+  * add .replace() method with tests
+  * fix makefile to "just work" for testing
+  * Merge branch 'master' of github.com:component/dom
+  * fix .html() return value of self
+  * Merge pull request #52 from daynekilheffer/master
+  * updated trim logic based on code review
+  * trimming html on initial do call to clean up messy html. resolves issue #34 on component/dom
+  * updated a .parent() unit test that would not have failed if the selector logic of parent was broken
+  * Merge pull request #51 from daynekilheffer/master
+  * correcting .html() test case
+  * ocd
+  * add mocha dep to package.json
+  * add package.json back to try testling again
+  * Merge pull request #46 from tyandell/patch-1
+  * Fix insertAfter on a NodeList
+  * build
+
 1.0.1 / 2014-02-05
 ==================
 
