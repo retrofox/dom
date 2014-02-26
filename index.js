@@ -4,7 +4,7 @@
 
 var isArray = require('isArray');
 var domify = require('domify');
-var each = require('each');
+var each = require('component-each');
 var events = require('event');
 var getKeys = require('keys');
 var query = require('query');
@@ -83,9 +83,8 @@ function dom(selector, context) {
   }
 
   // selector
-  var ctx = context
-    ? (context instanceof List ? context[0] : context)
-    : document;
+  var ctx = context ? (context instanceof List ? context[0] : context)
+            : document;
 
   return new List(query.all(selector, ctx), selector);
 }
@@ -137,7 +136,7 @@ dom.use = function(name, fn) {
   }
 
   return this;
-}
+};
 
 /**
  * Initialize a new `List` with the
@@ -181,7 +180,7 @@ List.prototype.splice = Array.prototype.splice;
 
 List.prototype.toArray = function() {
   return slice.call(this);
-}
+};
 
 /**
  * Attribute accessors.
