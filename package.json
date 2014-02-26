@@ -1,10 +1,11 @@
 {
   "name": "dom-component",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "repository": "component/dom",
   "description": "DOM traversal, manipulation and events aggregate library",
   "license": "MIT",
   "dependencies": {
+    "is-array": "1.0.1",
     "component-domify": "1.2.2"
   },
   "testling": {

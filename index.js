@@ -2,7 +2,7 @@
  * Module dependencies.
  */
 
-var isArray = require('isArray');
+var isArray = require('is-array');
 var domify = require('domify');
 var each = require('component-each');
 var events = require('event');

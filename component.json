@@ -1,6 +1,6 @@
 {
   "name": "dom",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "DOM traversal, manipulation and events aggregate library",
   "keywords": [
     "html",
@@ -28,7 +28,7 @@
     "component/matches-selector": "0.1.1",
     "yields/traverse": "0.1.1",
     "component/trim": "0.0.1",
-    "retrofox/is-array": "1.0.0",
+    "retrofox/is-array": "1.0.1",
     "component/to-function": "1.2.1",
     "matthewp/keys": "0.0.2",
     "matthewp/text": "0.0.2"
